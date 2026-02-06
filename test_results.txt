@@ -1,0 +1,36 @@
+==========================================
+TESTE 1: Texto mais profundo
+Esperado: Texto mais profundo
+Resultado: Texto mais profundo
+
+==========================================
+TESTE 2: Empate (retorna primeiro)
+Esperado: Primeiro texto profundo
+Resultado: Primeiro texto profundo
+
+==========================================
+TESTE 3: HTML mal-formado (tags cruzadas)
+Esperado: malformed HTML
+Resultado: malformed HTML
+
+==========================================
+TESTE 4: Tag não fechada
+Esperado: malformed HTML
+Resultado: malformed HTML
+
+==========================================
+TESTE 5: Profundidade extra
+Resultado: Texto super profundo - nível 7
+
+==========================================
+TESTE 6: Linhas vazias
+Resultado: Texto com linhas vazias
+
+==========================================
+TESTE 7: URL inválida
+Esperado: URL connection error
+Resultado: URL connection error
+
+==========================================
+✓ TESTES CONCLUÍDOS
+==========================================

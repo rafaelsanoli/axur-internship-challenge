@@ -107,6 +107,12 @@ public class HtmlAnalyzer {
             return;
         }
 
+        // Ignore DOCTYPE declarations and comments
+        // Ignora declarações DOCTYPE e comentários
+        if (line.startsWith("<!") || line.startsWith("<!--")) {
+            return;
+        }
+
         // Check if it's a closing tag
         // Verifica se é tag de fechamento
         if (line.startsWith("</") && line.endsWith(">")) {
